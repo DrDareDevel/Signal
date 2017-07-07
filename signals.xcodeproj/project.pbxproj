@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1463E63E1F0F87FA005F0550 /* generators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463E63D1F0F87FA005F0550 /* generators.swift */; };
+		1463E6401F0F8856005F0550 /* basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463E63F1F0F8856005F0550 /* basic.swift */; };
+		1463E6421F0F8895005F0550 /* filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463E6411F0F8895005F0550 /* filters.swift */; };
+		OBJ_20 /* signals.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* signals.swift */; };
+		OBJ_27 /* signalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* signalsTests.swift */; };
+		OBJ_29 /* signals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* signals.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1463E63C1F0F63E7005F0550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_15;
+			remoteInfo = signals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1463E63D1F0F87FA005F0550 /* generators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = generators.swift; sourceTree = "<group>"; };
+		1463E63F1F0F8856005F0550 /* basic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = basic.swift; sourceTree = "<group>"; };
+		1463E6411F0F8895005F0550 /* filters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = filters.swift; sourceTree = "<group>"; };
+		OBJ_11 /* signalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signalsTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* signals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = signals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_14 /* signalsTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = signalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_8 /* signals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signals.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_29 /* signals.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_10 /* signalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* signalsTests.swift */,
+			);
+			name = signalsTests;
+			path = Tests/signalsTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* signals.framework */,
+				OBJ_14 /* signalsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_9 /* Tests */,
+				OBJ_12 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* signals.swift */,
+				1463E63D1F0F87FA005F0550 /* generators.swift */,
+				1463E63F1F0F8856005F0550 /* basic.swift */,
+				1463E6411F0F8895005F0550 /* filters.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* signalsTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		OBJ_15 /* signals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_16 /* Build configuration list for PBXNativeTarget "signals" */;
+			buildPhases = (
+				OBJ_19 /* Sources */,
+				OBJ_21 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = signals;
+			productName = signals;
+			productReference = OBJ_13 /* signals.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_22 /* signalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_23 /* Build configuration list for PBXNativeTarget "signalsTests" */;
+			buildPhases = (
+				OBJ_26 /* Sources */,
+				OBJ_28 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_30 /* PBXTargetDependency */,
+			);
+			name = signalsTests;
+			productName = signalsTests;
+			productReference = OBJ_14 /* signalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "signals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				OBJ_15 /* signals */,
+				OBJ_22 /* signalsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				1463E6401F0F8856005F0550 /* basic.swift in Sources */,
+				1463E6421F0F8895005F0550 /* filters.swift in Sources */,
+				OBJ_20 /* signals.swift in Sources */,
+				1463E63E1F0F87FA005F0550 /* generators.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_27 /* signalsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_15 /* signals */;
+			targetProxy = 1463E63C1F0F63E7005F0550 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = signals.xcodeproj/signals_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = signals;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = signals;
+			};
+			name = Debug;
+		};
+		OBJ_18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = signals.xcodeproj/signals_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = signals;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = signals;
+			};
+			name = Release;
+		};
+		OBJ_24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = signals.xcodeproj/signalsTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = signalsTests;
+			};
+			name = Debug;
+		};
+		OBJ_25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = signals.xcodeproj/signalsTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = signalsTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_16 /* Build configuration list for PBXNativeTarget "signals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_17 /* Debug */,
+				OBJ_18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "signals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_23 /* Build configuration list for PBXNativeTarget "signalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_24 /* Debug */,
+				OBJ_25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
